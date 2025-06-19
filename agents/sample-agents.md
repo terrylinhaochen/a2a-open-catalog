@@ -187,9 +187,10 @@ class MyCustomAgent(Agent):
 ## 🔗 Resources
 
 - [A2A Protocol Specification](https://google-a2a.github.io/A2A/latest/)
-- [Agent Development Guide](../guides/agent-development.md)
+- [Agent Development Guide](./agent-development.md)
 - [Integration Examples](../examples/integration-patterns.md)
-- [Testing Framework](../guides/testing.md)
+- [Getting Started Guide](../guides/getting-started.md)
+- [Protocol Documentation](../protocol/README.md)
 
 ---
 

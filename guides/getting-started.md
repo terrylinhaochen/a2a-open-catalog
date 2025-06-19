@@ -14,7 +14,7 @@ By the end of this guide, you'll be able to:
 
 ### Step 1: Explore the Catalog
 
-1. **Visit the Catalog** - Go to [a2a-catalog.com](https://a2a-catalog.com)
+1. **Visit the Catalog** - Go to [a2acatalog.com](https://a2acatalog.com)
 2. **Browse Agents** - Use the search and filter options to find agents
 3. **Read Documentation** - Review agent capabilities and integration guides
 4. **Test Agents** - Try out agents using the built-in testing tools
@@ -32,7 +32,7 @@ Start with agents that match your use case:
 
 ```javascript
 // Example: Integrating a data analysis agent
-const response = await fetch('https://api.a2a-catalog.com/agents/data-analysis', {
+const response = await fetch('https://api.a2acatalog.com/agents/data-analysis', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
@@ -82,7 +82,7 @@ When evaluating agents, consider:
 import requests
 
 def integrate_agent(agent_id, task_data):
-    url = f"https://api.a2a-catalog.com/agents/{agent_id}"
+    url = f"https://api.a2acatalog.com/agents/{agent_id}"
     
     response = requests.post(url, json=task_data, headers={
         'Authorization': f'Bearer {API_KEY}',
@@ -245,10 +245,11 @@ async function callAgent(agentId, data) {
 
 ### Learn More
 
-- **A2A Protocol** - Read the [A2A Protocol Documentation](../protocol/)
-- **Agent Development** - Learn how to [build your own agents](../guides/agent-development.md)
-- **Integration Examples** - Explore [integration patterns](../examples/)
-- **Best Practices** - Review [best practices](../guides/best-practices.md)
+- **A2A Protocol** - Read the [A2A Protocol Documentation](../protocol/README.md)
+- **Agent Development** - Learn how to [build your own agents](../agents/agent-development.md)
+- **Sample Agents** - Explore [sample agents](../agents/sample-agents.md)
+- **Integration Examples** - Explore [integration patterns](../examples/integration-patterns.md)
+- **Design Principles** - Review [design principles](../protocol/design-principles.md)
 
 ### Join the Community
 
@@ -273,7 +274,7 @@ You've completed the getting started guide! You now have the foundation to:
 - ✅ Submit your own agents to the marketplace
 - ✅ Contribute to the A2A ecosystem
 
-Ready to dive deeper? Check out the [advanced guides](../guides/) or start building your first agent integration!
+Ready to dive deeper? Check out the [agent development guide](../agents/agent-development.md) or start building your first agent integration!
 
 ---
 

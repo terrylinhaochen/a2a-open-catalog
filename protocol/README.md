@@ -36,7 +36,7 @@ A2A is an open protocol that complements Anthropic's Model Context Protocol (MCP
 
 - [Official A2A Documentation](https://google-a2a.github.io/A2A/latest/) - Google's comprehensive A2A documentation
 - [GitHub Repository](https://github.com/google-a2a/A2A) - Source code and specifications
-- [A2A Catalog](https://a2a-catalog.com) - Discover A2A-compatible agents
+- [A2A Catalog](https://a2acatalog.com) - Discover A2A-compatible agents
 
 ---
 
